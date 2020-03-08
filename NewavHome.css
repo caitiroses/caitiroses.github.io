@@ -173,3 +173,79 @@
 }
 
 .dropdown:hover .dropdownContent {display: block;}
+
+.cte {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.card {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: inline-block;
+    width: 70%;
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card .image {
+    float: left;
+    width: 30%;
+}
+
+@media only screen and (max-width: 1273px) {
+    .card .image {
+        display: none;
+    }
+}
+
+.card .data {
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+    padding: 1em;
+}
+
+.card .data h1 {
+    font-size: 40;
+    padding-bottom: 0.3em;
+}
+
+.class-list {
+    padding: 10px;
+    text-align: center;
+}
+
+.class-list li {
+    border-bottom: 1px solid #ccc;
+    margin: 10px;
+    list-style: none;
+}
+
+.class-list li h3 {
+    transition: font-size 0.3s ease, background-color 0.3s ease;
+}
+
+.class-list li h3:hover {
+    font-size: 30px;
+}
+
+.cte-program-list {
+    transition: 1s;
+}
+
+.cte-program-list #a {
+    display: block;
+}
+
+.cte-program-list #a:hover + #b {
+    display: block;
+}
+
+.cte-program-list #b {
+    display:none;
+}
