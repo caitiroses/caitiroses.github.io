@@ -1,52 +1,53 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Home</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="Car Company Home.css"/>
-<link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+	<title>Newav</title>
+	<link rel="stylesheet" type="text/css" href="NewavHome.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
-	<!--This is the navbar. Still in a pretty basic state.-->
-	<div id="navbar">
-		<ul>
-			<li>Home</li>
-			<li>Cars</li>
-			<div class="dropdown">
-				<li id="dropdownBtn">More</li>
-				<div class="dropdownContent">
-					<p>TSA Chapter</p>
-					<p>Credits</p>
-				</div>
+	<div class="navbar" id="topnavbar">
+		<h1>newav</h1>
+		<a href="Newav Home.html" class="active">Home</a>
+		<a href=#>Models</a>
+		<a href=#>Build Your Newav</a>
+		<div class="dropdown">
+			<a class="dropLink" href=#>About</a>
+			<div class="dropdownContent">
+				<a href="#">About Us</a>
+				<a href="#">Electric Cars</a>
 			</div>
-		</ul>
+		</div>
+		<div class="dropdown">
+			<a class="dropLink" href=#>More</a>
+			<div class="dropdownContent">
+				<a href="#">Our TSA Chapter</a>
+				<a href="#">CTE Program</a>
+			</div>
+		</div>
 	</div>
-	
-	<!--Just the top text-->
-	<h1 class="titleText" id="companyName">newav</h1>
-	<h3 class="dramaticDescription">Revolutionizing transportation</h3>
-	
-	<!--The first panel. Working a bit off of Bootstrap, which divides the page almost like a table.-->
-	<div id="panel1">
-	<table>
-	<tr>
-		<td><img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/tesla-model-s-charging-1567102018.jpg?crop=1.00xw:0.502xh;0,0.399xh&resize=480:*"></img></td>
-		<td><div id="panel1spacer"></div></td>
-		<td><div id="panel1text">
-			<h2>Our Newest Design</h2>
-			<br>
-			<h4 class="panel1"><strong><em>Sleek.</em></strong></h4>
-			<br>
-			<p class="panel1">That's what we imagined when we set out to design our newest vehicle.</p>
-			<p class="panel1">So that's what we created.</p>
-			<br>
-			<br>
-			<h3 class="panel1">Introducing the newav 2020 Liscio</h3>
-		</div></td>
-	</tr>
-	</table>
+	<div id ="bigOlImage">
+		<div id="textbox1">
+			<h1>Go All In</h1>
+			<h4>Speed. Efficency. Style.</h4>
+			<h4><strong>The 2020 Newav Swoop</strong></h4>
+			<div id="button1">
+				<a href=#>Customize Now</a>
+			</div>
+		</div>
+		<div id="priceAd">
+		<h3><em>Starting At</em></h3>
+		<h1>$55,500</h1>
+		</div>
+		<div id="textbox2">
+			<h1>The Future of Transportation</h1>
+			<h4>Find out why electric cars are the future.</h4>
+			<div id="button2">
+				<a href=#>See More</a>
+			</div>
+		</div>
 	</div>
-	
 </body>
 </html>
